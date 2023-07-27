@@ -63,11 +63,23 @@
             background: var(--tg-theme-secondary-bg-color);
         }
 
-
-
         #form {
             display: none:
             text-align: center:
+        }
+
+        input {
+            width: 90%;
+            outline: none;
+            margin: 10px 5%;
+            padding: 15px 10px;
+            font-size: 14px;
+            border: 2px solid silver;
+            border-radius: 5px;
+        }
+
+        input:focus {
+            border-color: #db5d5d;
         }
 
     </style>
@@ -76,7 +88,7 @@
     <div id="main">
         <h1>Онлайн
             магазин</h1>
-        <img src="https://i.ibb.co/d78WtHZ/1657684290-41-kartinkin-net-p-kartinki-s-pitstsei-49.jpg">
+        <img scr="ttps://kartinkin.net/uploads/posts/2022-07/1657684290_41-kartinkin-net-p-kartinki-s-pitstsei-49.jpg">
         <p>Параграф текст</p>
         <button id="buy">Купить</button>
     </div>
@@ -84,7 +96,7 @@
         <input type="text" placeholder="Имя" id="user_name">
         <input type="text" placeholder="Email" id="user_email">
         <input type="text" placeholder="Телефон" id="user_phone">
-        <div id="error></div>
+        <div id="error"></div>
         <button id="order">Оформить</button>
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
     <script>
